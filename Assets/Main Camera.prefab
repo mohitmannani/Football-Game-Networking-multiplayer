@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2739785525099316125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2739785525099316278}
+  - component: {fileID: 2739785525099316279}
+  - component: {fileID: 2739785525099316371}
+  - component: {fileID: 2739785525099316344}
+  - component: {fileID: 2739785525099316137}
+  - component: {fileID: 2739785525099316138}
+  m_Layer: 2
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2739785525099316278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_LocalRotation: {x: 0.14847422, y: -0.69134325, z: 0.14847422, w: 0.6913431}
+  m_LocalPosition: {x: 65.1255, y: 14.825226, z: 3.402527}
+  m_LocalScale: {x: 109.192154, y: 1, z: 26.622223}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2739785525099316279
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 30.324488
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &2739785525099316371
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_Enabled: 1
+--- !u!81 &2739785525099316344
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_Enabled: 1
+--- !u!114 &2739785525099316137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99ba2bf8032140119605855b13db279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  lastTouched: {fileID: 0}
+  timeToChangeState: 0
+  positionBand: {x: 0, y: 0, z: 0}
+  sphere: {fileID: 0}
+  center: {fileID: 0}
+  target_throw_band: {x: 0, y: 0, z: 0}
+  candidateTothrowBand: {fileID: 0}
+  cornerSource: {fileID: 0}
+  areaCorner: {fileID: 0}
+  throw_goal: {fileID: 0}
+  goalKeeper: {fileID: 0}
+  cornerTrigger: {fileID: 0}
+  Meshes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Mat:
+  - {fileID: 2100000, guid: 8b24f402588ab4610be7753e25d4dd7f, type: 2}
+  - {fileID: 2100000, guid: b6e7ee6aadaf841b7a0229c694af4891, type: 2}
+  - {fileID: 2100000, guid: 2863098298a5746b9835617800211aaf, type: 2}
+  lastCandidate: {fileID: 0}
+  score_eq1: 0
+  score_eq2: 0
+  playerPrefab: []
+  goalKeeperPrefab: {fileID: 0}
+  ballPrefab: {fileID: 0}
+  mat_temp: {fileID: 0}
+  target_oponent_goal: {fileID: 0}
+  score_eq1_t: {fileID: 0}
+  score_eq2_t: {fileID: 0}
+--- !u!114 &2739785525099316138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739785525099316125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efb441f4c8d5954f9cc499c042c5aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  targetOffsetPos: {x: 20, y: 14, z: 0}
